@@ -1,0 +1,64 @@
+# Text answers from Week 0
+
+# Name: Michael Lattanzio
+
+
+
+Explain what each of the following lines does. Use the terminology you learned from the book (or Google)
+	
+	from TurtleWorld import *
+	world = TurtleWorld()
+	bob = Turtle()
+	wait_for_user()
+
+
+Answer: TurtleWorld import is taking all the necessary files that need to be installed and using the terminal to run them.
+
+The world = TurtleWorld() sets the Turtle equal to the program and whatever parameter might be place within the program.
+
+wait_for_user() allows for the user to enter data to making the program interactive. 
+
+
+
+
+These questions pertain to the program you wrote in Week0.
+
+-- What are the arguments of polygon()?  What type is each argument?
+Answer:
+
+Arguments within a polygon are passed variables. length and angle are two examples of arguments. 
+
+
+-- What two turtle functions did you use to draw the sides of the polygon?
+Answer:
+
+fd and lt
+
+
+-- What are the arguments for polyline?  What type is each argument?
+Answer:
+
+arguments for polyline include length, and angle
+
+
+
+Suppose you wrote a function, center_circle(), that draws a circle of a given radius around the current location of the turtle and restores the turtle to its starting point.
+
+
+-- What turtle functions would you use to move the turtle from the center to the edge of the circle and get ready to call the original circle() function?
+
+Answer: def circle (t, r):
+	circumference / n
+	polygon (t, n, length)
+
+	I would have to move the turtle along the diameter to the center of the circle.
+
+
+
+-- Suppose the interface of this function requires the turtle to end up in the same place it started, facing in the same direction it started.
+Answer:
+
+	I would have to use the lt function to make the proper amount of turns upon completion of its route.
+
+-- What is this type of requirement called?
+Answer:
